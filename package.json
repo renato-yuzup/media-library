@@ -1,0 +1,18 @@
+{
+  "name": "media-library",
+  "version": "0.1.0",
+  "description": "Application that helps you to catalog and manage multiple media files in a simple index",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "library",
+    "media",
+    "react",
+    "video",
+    "music"
+  ],
+  "author": "Renato Yamassaki",
+  "license": "MIT"
+}
