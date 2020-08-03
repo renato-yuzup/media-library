@@ -2,10 +2,10 @@
   "name": "media-library",
   "version": "0.1.0",
   "description": "Application that helps you to catalog and manage multiple media files in a simple index",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel ./src -d ./app --source-maps"
+    "build": "webpack"
   },
   "keywords": [
     "library",
@@ -21,7 +21,11 @@
     "@babel/core": "^7.11.0",
     "@babel/plugin-proposal-optional-chaining": "^7.11.0",
     "@babel/preset-env": "^7.11.0",
-    "@babel/preset-react": "^7.10.4"
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
     "react": "^16.13.1",
