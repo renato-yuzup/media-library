@@ -2,6 +2,7 @@ var path = require('path');
 var HtmlWebPackPlugin = require('html-webpack-plugin');
 
 module.exports = {
+  mode: 'production',
   entry: './src/index.js',
   output: {
     filename: 'app.js',
@@ -9,10 +10,6 @@ module.exports = {
   },
   resolve: {
     extensions: [ '.js', '.jsx' ]
-  },
-  devServer: {
-    contentBase: path.join(__dirname, 'app'),
-    port: 7000,
   },
   plugins: [
     new HtmlWebPackPlugin({
