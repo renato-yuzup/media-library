@@ -1,1 +1,8 @@
+# Default exclusion folder list
+/node_modules
+
+# App-specific exclusion list
+/app
+
+# Miscellaneous folders used by IDE plugins and other external tools
 /.history
